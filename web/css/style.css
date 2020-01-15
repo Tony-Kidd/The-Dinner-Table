@@ -5,7 +5,7 @@ Author URL: https://tonykidd.com
 html, body{
   	font-family: 'Open Sans', sans-serif;
     font-size: 100%;
-  	background:#4c96d7;
+  	background:#f9dc98;
 }
 body a{
 	transition:0.5s all;
@@ -50,14 +50,14 @@ body a{
 .logo{
 	position: absolute;
 	top: -51px;
-	left: 30.8%;
+	left: 31.5%;
 }
 /*----slider----*/
 .benner{
 }
 .img-slider{
 	margin: 1.8em 0em;
-	border: 10px solid #e46d1b;
+	border: 10px solid #950b0b;
 	box-shadow: 0px 0px 10px #E47CDB;
 }
 #slider2,
@@ -199,8 +199,8 @@ body a{
   height:20px;
   width:20px;
   display:inline-block;
-  border:2px solid #ff7f27;
-  background:#4c96d7;
+  border:2px solid #950b0b;
+  background:#f9dc98;
   border-radius:50%;
   -webkit-border-radius:50%;
   -moz-border-radius:50%;
@@ -208,8 +208,8 @@ body a{
   -ms-border-radius:50%;
 }
 .callbacks_here a:after{
-	border:2px solid #ff7f27;
-	background:#ff7f27;
+	border:2px solid #950b0b;
+	background:#950b0b;
 }
 .slider-caption {
 	position: absolute;
@@ -333,7 +333,7 @@ a.buy-btn:hover{
 	display: block;
 }
 .top-grid-info{
-	background:#e46d1b;
+	background:#950b0b;
 	padding:1em;
 }
 .top-grid-info img{
@@ -383,7 +383,7 @@ a.btn:hover{
 	color:#FFF;
 }
 .top-grids-bg span{
-	background: url(../images/top-grid-bg.png) repeat-x 0px 0px #4c96d7;
+	background: url(../images/top-grid-bg.png) repeat-x 0px 0px #f9dc98;
 	min-height: 585px;
 	width: 100%;
 	display: inline-block;
@@ -495,13 +495,13 @@ a.order:hover{
 /*--*/
 /*-- footer --*/
 .footer{
-	background:#99caf6;
+	background:#fff1d0;
 	padding:4em 0em 0em;
 }
 .footer h4 {
 	font-size: 1em;
 	font-weight: 700;
-	color: #ff7f27;
+	color: #950b0b;
 	text-transform: uppercase;
 	padding: 0 0 0.5em 0;
 	margin: 0 0 0.5em;
@@ -554,7 +554,7 @@ a.order:hover{
 	outline: none;
 	font-weight: 400;
 	text-indent: 10px;
-	border: 1px solid #ff7f27;
+	border: 1px solid #950b0b;
 	border-radius: 3px; 
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -566,7 +566,7 @@ a.order:hover{
 	border-bottom:1px solid #000000;
 }
 .footer-bottom a {
-	color: #e46f1d;
+	color: #950b0b;
 }
 .footer-bottom p {
 	color: #000000;
@@ -601,14 +601,14 @@ i.twt:hover{
 /*-- about --*/
 .about {
 	padding: 3em 0em;
-	background:#4c96d7;
+	background:#f9dc98;
 }
 .about img {
 	margin: 0em 0em 2em;
 }
 .about h3 {
 	font-size: 2.5em;
-	color: #e46d1b;
+	color: #950b0b;
 	padding: 1em 0;
 }
 .about p {
@@ -851,7 +851,7 @@ i.white-cart1{
 }
 .contact_info h3 {
 	font-size: 2em;
-	color: #4c96d7;
+	color: #f9dc98;
 	padding: 0.2em 0 1em;
 }
 .col:first-child{
@@ -867,7 +867,7 @@ i.white-cart1{
 .span_2_of_3  h3,
 .span_1_of_3  h3 {
 	font-size: 1.6em;
-	color: #4c96d7;
+	color: #950b0b;
 	padding:0.5em 0;
 }
 .contact-form{
@@ -889,9 +889,9 @@ i.white-cart1{
 			width:98%;
 			border: none;
 			outline:none;
-			color:#4c96d7;
+			color:#950b0b;
 			font-size:0.8125em;
-			border:1px solid #e46d1b;
+			border:1px solid #950b0b;
 			-webkit-appearance:none;
 }
 .contact-form textarea{
@@ -899,7 +899,7 @@ i.white-cart1{
 		height:120px;		
 }
 .contact-form input[type="submit"]{
-	background: #4c96d7;
+	background: #950b0b;
 	color: #FFF;
 	padding: 5px 20px;
 	display: inline-block;
@@ -913,7 +913,7 @@ i.white-cart1{
 	text-transform:uppercase;
 }
 .contact-form input[type="submit"]:hover{
-	background:#e46d1b;
+	background:#950b0b;
 	color:#fff;
 }
 .contact-form input[type="submit"]:active{
@@ -924,12 +924,12 @@ i.white-cart1{
 }
 .company_address p{
 	font-size:1em;
-	color:#e46d1b;
+	color:#950b0b;
 	padding: 2px 0;
 }
 .company_address p span{
 	text-decoration:underline;
-	color:#4c96d7;
+	color:#950b0b;
 	cursor:pointer;
 }
 .company_address p span:hover{
@@ -945,7 +945,7 @@ i.white-cart1{
 }
 .content h2 {
 	font-size: 2.5em;
-	color: #e46d1b;
+	color: #f9dc98;
 	padding: 1em 0 0em;
 }
 
