@@ -1,8 +1,6 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
+Author: Tony Kidd
+Author URL: https://tonykidd.com
 --*/
 html, body{
   	font-family: 'Open Sans', sans-serif;
@@ -52,7 +50,7 @@ body a{
 .logo{
 	position: absolute;
 	top: -51px;
-	left: 35.8%;
+	left: 30.8%;
 }
 /*----slider----*/
 .benner{
