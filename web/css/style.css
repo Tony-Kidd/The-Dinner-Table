@@ -15,7 +15,104 @@ body a{
 	-ms-transition:0.5s all;
 }
 /*-- top-header --*/
-
+.top-header{
+	background:#f9dc98;
+}
+.top-header-left{
+	float:left;
+	width:40%;
+}
+.top-header-center{
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin-top: 0.5em;
+}
+.top-header-right{
+	float:left;
+	width:40%;
+}
+.top-header-left ul{
+	margin:0;
+	padding:0;
+} 
+.top-header-left ul li{
+	display:inline-block;
+	float:left;
+}
+.top-header-left ul li a{
+	color: #FFF;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 100;
+	margin: 0 1.5em 0 0em;
+	padding: 0.5em 0;
+	display: block;
+}
+.top-header-left ul li a:hover,.top-header-left ul li.active a{
+	color:#f9dc98;
+}
+.top-header-center p{
+	color:#FFF;
+	font-size: 1.1em;
+	font-weight: 100;
+	margin:0;
+}
+.top-header-center p span.cart{
+	width: 20px;
+	height: 24px;
+	display: inline-block;
+	vertical-align: sub;
+	margin-right: 0.5em;
+}
+.top-header-center p label{
+	color:#f9dc98;
+	font-weight:100;
+	margin-left:0.4em;
+}
+.top-header-right li form{
+	position: relative;
+}
+.top-header-right li form input[type="text"]{
+	border: none;
+	outline: none;
+	position: relative;
+	transition: linear 0.5s all;
+	background: #f9dc98;
+	padding: 0.6em;
+	color:#FFF;
+}
+.top-header-right li form input[type="submit"]{
+	background: url(../images/search-icon.png) no-repeat 0px 0px;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	border: none;
+	outline: none;
+	position: absolute;
+	right: 10px;
+	top: 11px;
+}
+.top-header-right ul li{
+	display:inline-block;
+	float:left;
+}
+.top-header-right ul li a{
+	color: #FFF;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 100;
+	padding: 0 0.8em;
+	margin: 0.5em 0;
+	display: block;
+	border-right:1px solid #FFF;
+}
+.top-header-right ul li:nth-child(3) a{
+	border-right:none;
+}
+.top-header-right ul li a:hover,.top-header-right ul li.active a{
+	color:#f9dc98;
+}
 .main-menu{
 	background: url(../images/nav-bg.png) repeat-x 0px 0px;
 	margin-top: 6em;
@@ -631,7 +728,7 @@ i.twt:hover{
 	text-decoration:none;
 }
 .about a:hover{
-	background:#5a0f16;
+	background:#800309;
 }
 /*-- /about --*/
 /*--Bi seller slide Starts ---*/
@@ -764,7 +861,7 @@ i.twt:hover{
 	display: none;
 }
 .veiw-img-mark a{
-	background: #5A0F16;
+	background: #800309;
 	padding: 10px;
 	color: #fff;
 	font-size: 0.85em;
@@ -797,7 +894,7 @@ button.add2cart span {
 	line-height: 2em;
 }
 button.add2cart span:hover {
-	background: #5a0f16;
+	background: #800309;
     transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -817,7 +914,7 @@ i.white-cart1{
 }
 .biseller-info h2 {
 	font-size: 2.5em;
-	color: #5A0F16;
+	color: #800309;
 	padding: 1em 0;
 }
 .best-seller {
@@ -933,7 +1030,7 @@ i.white-cart1{
 	cursor:pointer;
 }
 .company_address p span:hover{
-	color:#5A0F16;
+	color:#800309;
 }
 .map{
 }
@@ -945,7 +1042,7 @@ i.white-cart1{
 }
 .content h2 {
 	font-size: 2.5em;
-	color: #f9dc98;
+	color: #950b0b;
 	padding: 1em 0 0em;
 }
 
@@ -954,7 +1051,7 @@ i.white-cart1{
 	padding:6em 0 5em 0;
 }
 .register-top-grid h3, .register-bottom-grid h3 {
-	color:#5A0F16;
+	color:#800309;
 	font-size: 1.2em;
 	padding-bottom: 15px;
 	margin: 0;
@@ -1066,7 +1163,7 @@ i.white-cart1{
 	outline:none;
 }
 .register-but input[type="submit"]:hover {
-	background:#5A0F16;
+	background:#800309;
 }
 div.register-bottom-grid {
 	margin-top:3em;
@@ -1076,7 +1173,7 @@ div.register-bottom-grid {
 	padding: 0;
 }
 .login-left h3, .login-right h3 {
-	color:#5A0F16;
+	color:#800309;
 	font-size: 1.2em;
 	padding-bottom: 0.5em;
 	font-weight:600;
@@ -1101,7 +1198,7 @@ div.register-bottom-grid {
 	text-transform: uppercase;
 }
 .acount-btn:hover, .login-right input[type="submit"]:hover{
-	background:#5A0F16;
+	background:#800309;
 	text-decoration:none;
 	color:#fff;
 }
@@ -1249,7 +1346,7 @@ ul.women_pagenation li a:hover{
 	margin-left: 0;
 }
 h4.title {
-	color: #5A0F16;
+	color: #800309;
 	margin-bottom: 0.5em;
 	font-size: 1.1em;
 	line-height: 1.2;
@@ -1287,7 +1384,7 @@ h5.sub_title{
 	float: left;
 }
 .button1 input[type="submit"]:hover{
-	background:#5A0F16;
+	background:#800309;
 }
 .login{
 	padding:3% 0;
@@ -1340,7 +1437,7 @@ h5.sub_title{
 	float: right;
 }
 .comments-area input[type="submit"]:hover{
-	background:#5A0F16;
+	background:#800309;
 }
 p#account-form-remember{
 	float:left;
@@ -1477,7 +1574,7 @@ background: #fff;
 	margin:1em 0em;
 }	
 .span_1_of_4  h3{
-	color: #5A0F16;
+	color: #800309;
 	margin-bottom: 0.5em;
 	font-size: 2em;
 	font-weight:600;
@@ -1682,7 +1779,7 @@ p.product_descr {
 	transition: all 0.3s ease-in-out;
 }
 .button1:hover{
-	background:#5A0F16;
+	background:#800309;
 }
 .desc1 h3{
 	color:#333333;
@@ -1748,7 +1845,7 @@ p.product_descr {
 	display: inline-block;
 	font-size: 1em;
 	padding: 10px 34px;
-	background:#5A0F16;
+	background:#800309;
 	color:#fff;
 	text-transform:uppercase;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -2048,7 +2145,7 @@ h4.title {
 .head-nav ul li a {
 	border-right: none;
 	border-bottom: none;
-	background: #5A0F16;
+	background: #800309;
 	color: #ffffff;
 }
 .head-nav ul{
@@ -2089,7 +2186,7 @@ h4.title {
 }
 .head-nav ul li a:hover, .head-nav ul li.active a {
 	border-bottom:none;
-	color:#f84f86;
+	color:#ffffff;
 }
 .head-nav ul li:nth-child(3) {
 	margin-left: 0;
